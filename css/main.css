@@ -45,9 +45,26 @@ body {
 .languages-content {
     display: flex;
     justify-content: space-between;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 8%;
+    padding-right: 13%;
     margin: 4rem;
-    border: 2px solid;
-    border-radius: 0.5rem;
+}
+
+section{
+    border-radius: 1.5rem;
+    Box-shadow: 2px 2px 12px 10px rgba(0, 0, 0, 0.062);
+}
+.section_title {
+    text-align: center;
+    justify-content: space-between;
+}
+
+.section_subtitle {
+    text-align: center;
+    justify-content: space-between;
+    font-size: 1.5rem;
 }
 
 .languages-section {
