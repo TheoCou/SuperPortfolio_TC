@@ -9,52 +9,73 @@
     <link rel="icon" type="image/png" href="https://img.icons8.com/stickers/344/t.png">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/main.css">
 </head>
 
 <body>
-    <header>
+
+    <header role="header">
+        <nav class="menu" role="navigation">
+            <div class="inner">
+                <div class="m-left">
+                    <h1 class="logo">Théo Courson</h1>
+                </div class="m-left">
+
+                <div class="m-right">
+
+                    <a href="#" class="m-link">Accueil</a>
+                    <a href="#" class="m-link">Compétences</a>
+                    <a href="#" class="m-link">Parcours</a>
+                    <a href="#" class="m-link">Contact</a>
+
+                </div>
+            </div>
+
+        </nav>
+    </header>
+
+
+
+
+
+
+
+    <!--<header>
+        
         <div class="banner-text">
 
-            <ul>
-                <li><a href="#Accueil"><i class="material-icons"
-                            aria-hidden="true">perm_device_information</i>compétences</a></li>
+            <ul style="list-style-type:none;">
+                <li><a href="#compétences">compétences</a></li>
 
                 <li><a href="#Parcours"></a></li>
 
-                <li><a href="#footer"><i class="material-icons"
-                            aria-hidden="true">perm_device_information</i>contact</a></li>
+                <li><a href="#footer">contact</a></li>
             </ul>
             <h2>Bienvenue sur mon Portfolio !</h2>
         </div>
-    </header>
+    </header>-->
 
-    <div class="animation-area">
-        <ul class="box-area">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
-    </div>
+    <main>
 
-    <footer id="footer">
-        <article>
-            <h2>Contact</h2>
-            <ul>
-                <li>
-                    <i class="material-icons" aria-hidden="true">home</i>Paris
-                </li>
 
-                <li><i class="fa fa-phone" aria-hidden="true"></i>Téléphone : (+33)7.77.28.62.92</li>
+        <footer id="footer">
+            <article>
+                <h2>Contact</h2>
+                <ul style="list-style-type:none;">
+                    <li>
+                        <i class="material-icons" aria-hidden="true">map</i> Paris
+                    </li>
 
-                <li><i class="fa fa-envelope" aria-hidden="true"></i>Email : theocourson@gmail.com</li>
-            </ul>
+                    <li><i class="material-icons" aria-hidden="true">phone</i> Téléphone : (+33)7.77.28.62.92</li>
 
-        </article>
-    </footer>
+                    <li><i class="material-icons" aria-hidden="true">email</i> Email : theocourson@gmail.com</li>
+                </ul>
+
+            </article>
+        </footer>
+    </main>
 </body>
 
 </html>
