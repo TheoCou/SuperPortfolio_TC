@@ -41,20 +41,26 @@ body {
     margin-right: 15px;
     margin-top: 2rem;
 }
-.languages_content{
+
+.languages-content {
     display: flex;
     justify-content: space-between;
-    margin: 65px;
+    margin: 4rem;
+    border: 2px solid;
+    border-radius: 0.5rem;
 }
-.languages-section{
+
+.languages-section {
     margin: 2rem;
 }
+
 .logo {
     margin: 0;
     padding: 0;
     margin-top: 10%;
 }
-.logos{
+
+.logos {
     height: 100px;
     width: 100px;
 }
@@ -63,8 +69,4 @@ footer {
     background-color: rgba(34, 34, 34, 0.678);
     text-align: center;
     padding: 6rem 0;
-}
-
-footer, li{
-    margin-bottom: 1rem;    
 }
