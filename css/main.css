@@ -52,10 +52,11 @@ body {
     margin: 4rem;
 }
 
-section{
+.shadow-section {
     border-radius: 1.5rem;
     Box-shadow: 2px 2px 12px 10px rgba(0, 0, 0, 0.062);
 }
+
 .section_title {
     text-align: center;
     justify-content: space-between;
@@ -78,9 +79,19 @@ section{
 }
 
 .logos {
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
 }
+
+.logos2 {
+    height: 210px;
+    width: 460px;
+}
+
+.logos3 {
+    height: 300px;
+}
+
 
 footer {
     background-color: rgba(34, 34, 34, 0.678);
