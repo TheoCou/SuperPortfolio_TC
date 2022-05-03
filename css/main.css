@@ -52,6 +52,10 @@ body {
     margin: 4rem;
 }
 
+.languages-section {
+    margin: 2rem;
+}
+
 .shadow-section {
     border-radius: 1.5rem;
     Box-shadow: 2px 2px 12px 10px rgba(0, 0, 0, 0.062);
@@ -66,10 +70,6 @@ body {
     text-align: center;
     justify-content: space-between;
     font-size: 1.5rem;
-}
-
-.languages-section {
-    margin: 2rem;
 }
 
 .logo {
