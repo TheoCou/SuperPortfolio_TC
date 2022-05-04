@@ -142,6 +142,34 @@ header.sticky {
   height: 300px;
 }
 
+.languages-content {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.pres_text {
+  font-size: 20px;
+  padding-top: 20px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.shadow-section {
+  border-radius: 1.5rem;
+  Box-shadow: 2px 2px 40px 8px rgba(0, 0, 0, 0.049);
+  padding-top: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+
+}
+
+/* ----FOOTER---- */
+
 .footer-distributed {
   background-color: #393939;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
@@ -257,8 +285,6 @@ header.sticky {
   font-weight: bold;
   margin-bottom: 20px;
 }
-
-
 
 .footer-distributed .footer-icons a {
   display: inline-block;
