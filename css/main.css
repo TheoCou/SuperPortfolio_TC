@@ -101,6 +101,41 @@ header.sticky {
   text-shadow: -.25px -.25px 0 #000, -.25px .25px 0 #000, .25px -.25px 0 #000, .25px .25px 0 #000;
 }
 
+header .logo {
+  position: relative;
+  text-decoration: none;
+  transition: 0.6s;
+  background: url(../asset/logoBlanc_theo.png);
+  margin: 0;
+  padding: 0;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 181px;
+  height: 92px;
+}
+
+header ul {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header ul li {
+  position: relative;
+  list-style: none;
+}
+
+header ul li a {
+  position: relative;
+  margin: 0 15px;
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: 2px;
+  font-weight: 500px;
+  transition: 0.6s;
+}
+
 .logos {
   height: 150px;
   width: 150px;
@@ -167,6 +202,7 @@ header.sticky {
   padding-bottom: 50px;
 
 }
+
 .section_subtitle {
   font: normal 50px 'Kaushan Script', cursive;
   font-weight: 600;
