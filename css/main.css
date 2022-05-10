@@ -11,12 +11,19 @@
 }
 
 body {
-  background: rgb(255, 255, 255);
+  background: linear-gradient(to bottom, #222222 0%, #ffffff 55%);
   min-height: 200vh;
   margin: 0;
   padding: 0;
   width: 100%;
 
+}
+img{
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+  object-fit: cover;
 }
 
 .margin_content_main {
@@ -28,14 +35,15 @@ body {
 
 
 #gradiant_menu {
-  background: url(../asset/gradiant_menu.png);
+  /* background: url(../asset/gradiant_menu.png); */
+
   margin: 0;
   padding: 0;
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   width: 100%;
-  height: 27.2rem;
+  height: 20rem; */
   z-index: 1;
   position: absolute;
 }
@@ -63,6 +71,21 @@ header ul a:active {
   color: transparent;
   background-color: transparent;
   text-shadow: -.25px -.25px 0 #fff, -.25px .25px 0 #fff, .25px -.25px 0 #fff, .25px .25px 0 #fff;
+}
+
+header ul a::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: -2px;
+  left: 0;
+  background-color: #fff;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all .5s ease-in-out 0s;
+  transition: all .5s ease-in-out 0s;
 }
 
 header ul a:hover::before,
@@ -98,6 +121,10 @@ header .logo {
   width: 181px;
   height: 92px;
 }
+main h1, main .pres_text{
+  color: #fafafa;
+}
+
 
 header ul {
   position: relative;
@@ -122,18 +149,18 @@ header ul li a {
 }
 
 .logos {
-  height: 150px;
-  width: 150px;
+  height: 15rem;
+  width: 15rem;
 }
 
-.logos_1 {
-  height: 200px;
-  width: 200px;
-}
+/* .logos_1 {
+  height: 20rem;
+  width: 20rem;
+} */
 
 .logo_html {
-  height: 200px;
-  width: 200px;
+  height: 20rem;
+  width: 20rem;
 }
 
 .logo_css {
@@ -182,20 +209,26 @@ header ul li a {
   border-radius: 1.5rem;
   Box-shadow: 2px 2px 40px 8px rgba(0, 0, 0, 0.049);
   padding-top: 30px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  padding-bottom: 50px;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  padding-bottom: 5rem;
 
 }
 
 .section_subtitle {
-  font: normal 50px 'Kaushan Script', cursive;
+  font: normal 5rem 'Kaushan Script', cursive;
   font-weight: 600;
   color: #000000;
   text-align: center;
   justify-content: space-between;
 }
-
+.languages-content figure figcaption *{
+  text-align: center;
+}
+.languages-content figure{
+  height: 20rem;
+  width: 20rem;
+}
 /* ----FOOTER---- */
 
 .footer-distributed {
@@ -203,9 +236,10 @@ header ul li a {
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
   box-sizing: border-box;
   width: 100%;
+  min-height: 100vh;
   text-align: left;
   font: bold 16px sans-serif;
-  padding: 55px 50px;
+  padding: 55px 5rem;
   margin-top: 80px;
 }
 
