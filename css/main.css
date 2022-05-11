@@ -18,7 +18,8 @@ body {
   width: 100%;
 
 }
-img{
+
+img {
   display: inline-block;
   width: 100%;
   height: 100%;
@@ -57,7 +58,7 @@ header {
   justify-content: space-between;
   align-items: center;
   transition: 0.6s;
-  padding: 20px 60px;
+  padding: 1.25rem 3.75rem;
   z-index: 3;
   overflow: hidden;
 }
@@ -96,9 +97,9 @@ header ul a:active::before {
 }
 
 header.sticky {
-  padding: 5px 60px;
+  padding: 5px 3.75rem;
   background: #fff;
-  box-shadow: inset 0px -13px 27px -8px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0px -13px 1.688rem -8px rgba(0, 0, 0, 0.05);
 
 }
 
@@ -118,10 +119,12 @@ header .logo {
   padding: 0;
   background-position: center center;
   background-repeat: no-repeat;
-  width: 181px;
-  height: 92px;
+  width: 11rem;
+  height: 5.75rem;
 }
-main h1, main .pres_text{
+
+main h1,
+main .pres_text {
   color: #fafafa;
 }
 
@@ -144,7 +147,7 @@ header ul li a {
   text-decoration: none;
   color: #fff;
   letter-spacing: 2px;
-  font-weight: 500px;
+  font-weight: 31.25rem;
   transition: 0.6s;
 }
 
@@ -164,29 +167,29 @@ header ul li a {
 }
 
 .logo_css {
-  height: 190px;
-  width: 190px;
+  height: 11.875rem;
+  width: 11.875rem;
 }
 
 .logo_java {
-  margin-top: 30px;
-  height: 160px;
-  width: 160px;
+  margin-top: 1.875rem;
+  height: 13.75rem;
+  width: 13.75rem;
 }
 
 .logo_ubuntu {
-  margin-top: 30px;
-  height: 160px;
-  width: 160px;
+  margin-top: 1.875rem;
+  height: 13.75rem;
+  width: 13.75rem;
 }
 
 .logos2 {
-  height: 210px;
-  width: 460px;
+  height: 13.125rem;
+  width: 43.75rem;
 }
 
 .logos3 {
-  height: 300px;
+  height: 18.75rem;
 }
 
 .languages-content {
@@ -199,16 +202,16 @@ header ul li a {
 }
 
 .pres_text {
-  font-size: 20px;
-  padding-top: 20px;
+  font-size: 1.25rem;
+  padding-top: 1.25rem;
   padding-left: 5%;
   padding-right: 5%;
 }
 
 .shadow-section {
   border-radius: 1.5rem;
-  Box-shadow: 2px 2px 40px 8px rgba(0, 0, 0, 0.049);
-  padding-top: 30px;
+  Box-shadow: 2px 2px 2.5rem 8px rgba(0, 0, 0, 0.049);
+  padding-top: 1.875rem;
   margin-top: 5rem;
   margin-bottom: 5rem;
   padding-bottom: 5rem;
@@ -222,13 +225,16 @@ header ul li a {
   text-align: center;
   justify-content: space-between;
 }
-.languages-content figure figcaption *{
+
+.languages-content figure figcaption * {
   text-align: center;
 }
-.languages-content figure{
-  height: 20rem;
-  width: 20rem;
+
+.languages-content figure {
+  height: 13rem;
+  width: 13rem;
 }
+
 /* ----FOOTER---- */
 
 .footer-distributed {
@@ -238,9 +244,9 @@ header ul li a {
   width: 100%;
   min-height: 100vh;
   text-align: left;
-  font: bold 16px sans-serif;
-  padding: 55px 5rem;
-  margin-top: 80px;
+  font: bold 1rem sans-serif;
+  padding: 3.438rem 5rem;
+  margin-top: 5rem;
 }
 
 .footer-distributed .footer-left,
@@ -257,7 +263,7 @@ header ul li a {
 
 .footer-distributed h3 {
   color: #ffffff;
-  font: normal 36px 'Cookie', cursive;
+  font: normal 2.25rem 'Cookie', cursive;
   margin: 0;
 }
 
@@ -267,7 +273,7 @@ header ul li a {
 
 .footer-distributed .footer-links {
   color: #ffffff;
-  margin: 20px 0 12px;
+  margin: 1.25rem 0 0.75rem;
   padding: 0;
   font-weight: 300;
 }
@@ -294,18 +300,17 @@ header ul li a {
   background-color: #33383b;
   color: #ffffff;
   font-size: 25px;
-  width: 38px;
-  height: 38px;
-  border-radius: 50%;
+  width: 2.375rem;
+  height: 2.375rem;
   text-align: center;
-  line-height: 42px;
+  line-height: 2.625rem;
   margin: 10px 15px;
   vertical-align: middle;
 }
 
 .footer-distributed .footer-center i.fa-envelope {
-  font-size: 17px;
-  line-height: 38px;
+  font-size: 1.063rem;
+  line-height: 2.375rem;
 }
 
 .footer-distributed .footer-center p {
@@ -333,7 +338,7 @@ header ul li a {
 }
 
 .footer-distributed {
-  line-height: 20px;
+  line-height: 1.25rem;
   color: #92999f;
   font-size: 13px;
   font-weight: normal;
@@ -345,19 +350,18 @@ header ul li a {
   color: #ffffff;
   font-size: 14px;
   font-weight: bold;
-  margin-bottom: 20px;
 }
 
 .footer-distributed .footer-icons a {
   display: inline-block;
-  width: 35px;
-  height: 35px;
+  width: 2.188rem;
+  height: 2.188rem;
   cursor: pointer;
   border-radius: 2px;
-  font-size: 20px;
+  font-size: 1.25rem;
   color: #ffffff;
   text-align: center;
-  line-height: 35px;
+  line-height: 2.188rem;
   margin-right: 3px;
   margin-bottom: 5px;
 }
