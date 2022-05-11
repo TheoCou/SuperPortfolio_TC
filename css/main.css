@@ -11,7 +11,6 @@
 }
 
 body {
-  background: linear-gradient(to bottom, #222222 0%, #ffffff 55%);
   min-height: 200vh;
   margin: 0;
   padding: 0;
@@ -157,7 +156,6 @@ main .pres_text {
   color: #000000;
 }
 
-
 header ul {
   position: relative;
   display: flex;
@@ -180,15 +178,28 @@ header ul li a {
   transition: 0.6s;
 }
 
+/* Transition noir blanc */
+
+header.sticky .logo {
+  background: url(../asset/logoNoir_theo.png);
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+  width: 6.813rem;
+  height: 3.5rem;
+}
+
+header.sticky ul li a {
+  color: #000;
+
+}
+
 .logos {
   height: 15rem;
   width: 15rem;
 }
 
-/* .logos_1 {
-  height: 20rem;
-  width: 20rem;
-} */
 
 .logo_html {
   height: 16.875rem;
