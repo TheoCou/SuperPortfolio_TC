@@ -450,7 +450,10 @@ header.sticky ul li a {
   .footer-distributed .footer-center i {
     margin-left: 0;
   }
-
+  body{
+    overflow-x: hidden;
+    width: 100vw;
+  }
   .main {
     line-height: normal;
     font-size: auto;
@@ -473,11 +476,17 @@ header.sticky ul li a {
   #container {
     display: none;
   }
-
+  body{
+    overflow-x: hidden;
+    width: 100vw;
+  }
 }
 
 @media screen and (max-width: 38.625rem) {
-
+  body{
+    overflow-x: hidden;
+    width: 100vw;
+  }
   #phrase_banner {
     right: 3.125rem;
     width: 31.25rem;
@@ -522,7 +531,10 @@ header.sticky ul li a {
     #pres_title_1 {
       font-size: 45px;
     }
-
+    body{
+      overflow-x: hidden;
+      width: 100vw;
+    }
 
   }
 
@@ -533,7 +545,10 @@ header.sticky ul li a {
       margin: auto;
 
     }
-
+    body{
+      overflow-x: hidden;
+      width: 100vw;
+    }
     #pres_title {
       font-size: 2.5rem;
     }
@@ -551,6 +566,9 @@ header.sticky ul li a {
     #pres_title {
       font-size: 2.5rem;
     }
-
+    body{
+      overflow-x: hidden;
+      width: 100vw;
+    }
   }
 }
