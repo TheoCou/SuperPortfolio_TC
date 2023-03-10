@@ -95,6 +95,14 @@ header a {
   position: relative;
 }
 
+section div figure a {
+  color: #000;
+}
+
+section div figure a img {
+  border-radius: 5%;
+}
+
 header ul a:hover,
 header ul a:active {
   color: transparent;
@@ -310,11 +318,7 @@ header.sticky ul li a {
   font: bold 1rem sans-serif;
   padding: 20rem 5rem;
   margin-top: 5rem;
-  line-height: 1.25rem;
-  color: #92999f;
-  font-size: 13px;
-  font-weight: normal;
-  display: block;
+
 }
 
 .footer-distributed .footer-left,
@@ -397,10 +401,26 @@ header.sticky ul li a {
 .footer-distributed .footer-center p a {
   color: #00ffbb;
   text-decoration: none;
+  ;
 }
 
 .footer-distributed .footer-right {
   width: 20%;
+}
+
+.footer-distributed {
+  line-height: 1.25rem;
+  color: #92999f;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.footer-distributed {
+  display: block;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 .footer-distributed .footer-icons a {
@@ -425,21 +445,34 @@ header.sticky ul li a {
     height: 16.875rem;
     width: 16.875rem;
   }
+
   .logo_css {
     height: 16.875rem;
     width: 16.875rem;
   }
+
   .logo_java {
     margin-top: 1.875rem;
     height: 13.75rem;
     width: 13.75rem;
   }
+
   .logo_ubuntu {
     margin-top: 1.875rem;
     height: 13.75rem;
     width: 13.75rem;
   }
-  .shadow-section{}
+
+  .shadow-section {}
+
+
+
+
+
+
+
+
+
 
   .footer-distributed {
     font: bold 14px sans-serif;
@@ -515,6 +548,7 @@ header.sticky ul li a {
     #phrase_banner {
       right: 4.375rem;
       width: 18.75rem;
+      ;
       padding-top: 14rem;
     }
 
