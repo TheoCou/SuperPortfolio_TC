@@ -5,5 +5,5 @@ Bonjour, je suis Théo COURSON et j'ai 20 ans. Je suis actuellement étudiant en
 
 
 # Charte graphique/typographique
-![PALETTECOLOORS.png](./asset/PALETTECOLOORS.png.png)
+![PALETTECOLOORS.png](./asset/coolors_update.png)
 - font-family: 'Kanit', sans-serif
