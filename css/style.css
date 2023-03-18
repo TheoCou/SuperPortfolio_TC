@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+
+body {
+    min-height: 200vh;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #fff;
+}
+
+header {
+    background-color: rgba(15, 25, 52, 0.76);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 1.25rem 3.75rem;
+    z-index: 3;
+    overflow: hidden;
+}
+
+.margin_content_main {
+    padding-top: 9rem;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.pres_text {
+    font-size: 1.25rem;
+    padding-top: 1.25rem;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+main h1,
+main .pres_text {
+    color: #000000;
+}
+
+.shadow-section {
+    border-radius: 1.5rem;
+    Box-shadow: 2px 2px 2.5rem 8px rgba(0, 0, 0, 0.049);
+    padding-top: 1.875rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    padding-bottom: 5rem;
+}
+
+.charte_vente {
+    height: 28rem;
+    width: 36rem;
+}
+
+.footer-distributed {
+    background-color: #201f44;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 100vh;
+    text-align: left;
+    font: bold 1rem sans-serif;
+    padding: 20rem 5rem;
+    margin-top: 5rem;
+    line-height: 1.25rem;
+    color: #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    display: block;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right {
+    display: inline-block;
+    vertical-align: top;
+    font-weight: 300;
+}
+
+.footer-distributed .footer-left {
+    width: 40%;
+}
+
+.footer-distributed h3 {
+    color: #ffffff;
+    margin: 0;
+}
+
+.footer-distributed h3 span {
+    color: #ffffff;
+}
+
+.footer-distributed .footer-links {
+    color: #ffffff;
+    margin: 1.25rem 0 0.75rem;
+    padding: 0;
+    font-weight: 300;
+}
+
+.footer-distributed .footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-distributed .footer-company-name {
+    color: #8f9296;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer-distributed .footer-center {
+    width: 35%;
+}
+
+.footer-distributed .footer-center i {
+    background-color: #33383b;
+    color: #ffffff;
+    font-size: 25px;
+    width: 2.375rem;
+    height: 2.375rem;
+    text-align: center;
+    line-height: 2.625rem;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope {
+    font-size: 1.063rem;
+    line-height: 2.375rem;
+}
+
+.footer-distributed .footer-center p {
+    display: inline-block;
+    color: #ffffff;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.footer-distributed .footer-center p span {
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.footer-distributed .footer-center p a {
+    color: #00ffbb;
+    text-decoration: none;
+}
+
+.footer-distributed .footer-right {
+    width: 20%;
+}
+
+.footer-distributed .footer-icons a {
+    display: inline-block;
+    width: 2.188rem;
+    height: 2.188rem;
+    cursor: pointer;
+    border-radius: 2px;
+    font-size: 1.25rem;
+    color: #ffffff;
+    text-align: center;
+    line-height: 2.188rem;
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+/* Media query */
+
+@media (max-width: 55rem) {
+
+    .logo_html {
+        height: 16.875rem;
+        width: 16.875rem;
+    }
+
+    .logo_css {
+        height: 16.875rem;
+        width: 16.875rem;
+    }
+
+    .logo_java {
+        margin-top: 1.875rem;
+        height: 13.75rem;
+        width: 13.75rem;
+    }
+
+    .logo_ubuntu {
+        margin-top: 1.875rem;
+        height: 13.75rem;
+        width: 13.75rem;
+    }
+
+    .footer-distributed {
+        font: bold 14px sans-serif;
+
+    }
+
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 2.5rem;
+        text-align: center;
+    }
+
+    .footer-distributed .footer-center i {
+        margin-left: 0;
+    }
