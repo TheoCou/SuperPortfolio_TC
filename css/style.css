@@ -8,15 +8,19 @@
 }
 
 body {
-    min-height: 200vh;
     margin: 0;
     padding: 0;
     width: 100%;
-    background-color: #fff;
+    background-color: #dfe1f04b;
+}
+
+a:hover {
+    color: #00ffbb;
 }
 
 header {
     background-color: rgba(15, 25, 52, 0.76);
+    color: #ffffff;
     position: fixed;
     top: 0;
     left: 0;
@@ -24,10 +28,15 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    transition: 0.6s;
+    transition: 4.6s;
     padding: 1.25rem 3.75rem;
     z-index: 3;
     overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: #7980e9;
 }
 
 .margin_content_main {
@@ -46,20 +55,28 @@ header {
 main h1,
 main .pres_text {
     color: #000000;
+    text-align: center;
+}
+
+.pres_text {
+    background-color: #1c2fdf4f;
+    padding: 0 28% 0 28%;
 }
 
 .shadow-section {
     border-radius: 1.5rem;
     Box-shadow: 2px 2px 2.5rem 8px rgba(0, 0, 0, 0.049);
     padding-top: 1.875rem;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
+    margin: 5rem 0 5rem 0;
     padding-bottom: 5rem;
+    background-color: white;
 }
 
 .charte_vente {
     height: 28rem;
     width: 36rem;
+    margin: auto;
+    display: flex;
 }
 
 .footer-distributed {
@@ -69,7 +86,6 @@ main .pres_text {
     width: 100%;
     min-height: 100vh;
     text-align: left;
-    font: bold 1rem sans-serif;
     padding: 20rem 5rem;
     margin-top: 5rem;
     line-height: 1.25rem;
