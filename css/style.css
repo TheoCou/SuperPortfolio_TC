@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -220,3 +222,4 @@ main .pres_text {
     .footer-distributed .footer-center i {
         margin-left: 0;
     }
+}
