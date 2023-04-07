@@ -50,17 +50,13 @@ a {
     padding-top: 1.25rem;
     padding-left: 5%;
     padding-right: 5%;
+    background-color: #1c2fdf4f;
 }
 
 main h1,
 main .pres_text {
     color: #000000;
     text-align: center;
-}
-
-.pres_text {
-    background-color: #1c2fdf4f;
-    padding: 0 28% 0 28%;
 }
 
 .shadow-section {
