@@ -242,14 +242,10 @@ header.sticky ul li a {
 }
 
 .languages-content {
-  /* display: block;
-  margin: auto; */
   display: grid;
   grid-template-columns: auto auto auto;
   grid-gap: 65px;
   justify-content: space-between;
-  /* padding: 3% 5% 3% 0; */
-  
 }
 
 .pres_text {
