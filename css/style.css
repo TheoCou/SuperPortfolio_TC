@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Sono:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -40,6 +41,10 @@ a {
 }
 
 .margin_content_main {
+    display: grid;
+    grid-template-columns: auto 22rem;
+    grid-gap: 65px;
+    justify-content: space-between;
     padding-top: 9rem;
     padding-left: 10%;
     padding-right: 10%;
@@ -47,7 +52,7 @@ a {
 
 .pres_text {
     font-size: 1.25rem;
-    padding: 1rem 5% 0.5rem 5%;
+    padding: 1rem 5% 0.8rem 5%;
     background-color: #1c2fdf4f;
 }
 
@@ -60,11 +65,11 @@ main .pres_text {
 .shadow-section {
     border-radius: 1.5rem;
     Box-shadow: 2px 2px 2.5rem 8px rgba(0, 0, 0, 0.049);
-    padding-top: 1.875rem;
-    margin: 5rem 0 5rem 0;
-    padding-bottom: 5rem;
+    margin: 3rem 0 5rem 0;
+    padding: 1.875rem 0 5rem 0;
     background-color: white;
 }
+
 
 .charte_vente {
     height: 28rem;
@@ -72,6 +77,15 @@ main .pres_text {
     margin: auto;
     display: flex;
 }
+
+.preview_vente {
+    height: auto;
+    width: 70%;
+    margin: 5rem auto auto auto;
+    display: flex;
+}
+
+/* Footer */
 
 .footer-distributed {
     background-color: #201f44;
