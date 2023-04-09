@@ -28,7 +28,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    transition: 4.6s;
+    transition: 0.5s;
     padding: 1.25rem 3.75rem;
     z-index: 3;
     overflow: hidden;
@@ -47,9 +47,7 @@ a {
 
 .pres_text {
     font-size: 1.25rem;
-    padding-top: 1.25rem;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding: 1rem 5% 0.5rem 5%;
     background-color: #1c2fdf4f;
 }
 
