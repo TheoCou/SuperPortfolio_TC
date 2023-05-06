@@ -45,15 +45,82 @@ a {
     grid-template-columns: auto 22rem;
     grid-gap: 65px;
     justify-content: space-between;
-    padding-top: 9rem;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding: 9rem 10% 0 10%;
 }
 
 .pres_text {
     font-size: 1.25rem;
     padding: 1rem 5% 0.8rem 5%;
     background-color: #1c2fdf4f;
+}
+
+.languages-content img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.logo_prestashop {
+    padding: 4rem 4rem 4rem 4rem;
+    display: block;
+    margin: auto;
+}
+
+#shopify {
+    width: 400px;
+}
+
+#wix {
+    width: 600px;
+}
+
+#wordpress {
+    width: 500px;
+}
+
+#bubble {
+    width: 600px;
+}
+
+#squarespace {
+    width: 450px;
+}
+
+.languages-content {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    grid-gap: 65px;
+    margin: 0 1rem 1rem 1rem;
+}
+
+.languages-content figure {
+    height: 13rem;
+    width: 13rem;
+}
+
+.pres_intro {
+    font-size: 1.25rem;
+    padding: 1rem 5% 0.8rem 5%;
+}
+
+h2 {
+    padding: 0 0 0 3rem;
+}
+
+span {
+    color: #7980e9;
+    font-weight: bold;
+}
+
+.margin_content_main img {
+    height: 75%;
+    margin: 5rem 0 0 0;
+}
+
+.description {
+    margin: 4rem 0 1rem 0;
+    text-align: center;
+    font-size: larger;
 }
 
 main h1,
@@ -65,15 +132,27 @@ main .pres_text {
 .shadow-section {
     border-radius: 1.5rem;
     Box-shadow: 2px 2px 2.5rem 8px rgba(0, 0, 0, 0.049);
-    margin: 3rem 0 5rem 0;
-    padding: 1.875rem 0 5rem 0;
+    margin: 3rem 0 15rem 0;
+    padding: 1.875rem 0 1rem 0;
     background-color: white;
 }
 
+.shadow-section2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px 2em;
+}
 
 .charte_vente {
     height: 28rem;
     width: 36rem;
+    margin: auto;
+    display: flex;
+}
+
+.charte_vente1 {
+    height: 28rem;
+    width: 45rem;
     margin: auto;
     display: flex;
 }

@@ -245,6 +245,7 @@ header.sticky ul li a {
   display: grid;
   grid-template-columns: auto auto auto;
   grid-gap: 65px;
+  margin: 0 1rem 1rem 1rem;
   justify-content: space-between;
 }
 
@@ -258,10 +259,8 @@ header.sticky ul li a {
 .shadow-section {
   border-radius: 1.5rem;
   Box-shadow: 2px 2px 2.5rem 8px rgba(0, 0, 0, 0.049);
-  padding-top: 1.875rem;
-  margin-top: 5rem;
-  margin-bottom: 5rem;
-  padding-bottom: 5rem;
+  margin: 5rem 0 5rem 0;
+  padding: 1.875rem 0 5rem 0;
 }
 
 .section_title {
@@ -269,14 +268,7 @@ header.sticky ul li a {
   color: #000000;
   text-align: center;
   justify-content: space-between;
-  padding-top: 1.25rem;
-}
-
-.section_subtitle {
-  font-weight: 600;
-  color: #000000;
-  text-align: center;
-  justify-content: space-between;
+  padding: 1.25rem 0 1.25rem 0;
 }
 
 .languages-content figure figcaption * {
