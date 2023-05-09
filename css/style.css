@@ -131,11 +131,6 @@ main .pres_text {
     text-align: center;
 }
 
-#video_elementor {
-    display: block;
-    margin: 0 auto 0 auto;
-}
-
 .shadow-section {
     border-radius: 1.5rem;
     Box-shadow: 2px 2px 2.5rem 8px rgba(0, 0, 0, 0.049);
@@ -148,6 +143,21 @@ main .pres_text {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 10px 2em;
+}
+
+#video_elementor {
+    display: block;
+    margin: 0 auto 0 auto;
+}
+
+#example_page {
+    margin-top: 15rem;
+}
+
+#example_page2 {
+    display: block;
+    margin: 0 auto 0 auto;
+    width: 80%;
 }
 
 .charte_vente {
